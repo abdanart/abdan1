@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Canggih</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Selamat Datang di Website Canggih</h1>
+
+    <div id="form-container" class="form-container hidden">
+        <!-- Sign In Form -->
+        <div id="sign-in-form" class="form hidden">
+            <h2>Sign In</h2>
+            <input type="text" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button onclick='animate("signIn")'>Sign In</button>
+        </div>
+
+        <!-- Sign Up Form -->
+        <div id="sign-up-form" class='form hidden'>
+            <h2>Sign Up</h2>
+            <input type='text' placeholder='Nama' required />
+            <input type='text' placeholder='Email' required />
+            <input type='password' placeholder='Password' required />
+            <!-- Add additional fields as needed -->
+            <button onclick='animate("signUp")'>Sign Up</button>
+        </div>
+
+        <!-- Logout Button -->
+        <button id='logout-btn' onclick='animate("logout")'>Logout</button>
+
+    </div>
+
+    <!-- Action Buttons -->
+    <!--< Uncomment the following lines if you want a toggle between forms >
+      --> 
+      <!--<button onclick ="toggleForm('sign-in')">Tampilkan Sign In</button>-->
+      <!--<button onclick ="toggleForm('sign
